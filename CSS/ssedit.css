@@ -1,0 +1,35 @@
+.header_menu {
+    height: auto;
+    position: relative;
+    list-style: none;
+ }
+ 
+
+ .header_menu li a::after {
+    content: "";
+    height: 5px;
+    width: 50px;
+    border-radius: 10px;
+    transition: 0.3s;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+ }
+
+ .header_wrap .nav_widget {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 9;
+    height: 100%;
+    font-size: 18px;
+    line-height: 1.44444;
+ }
+
+
+ .header_wrap .d-block-pc .nav_widget .hash_rolling_wrapper {
+    margin-top: 5px;
+}
+
+
