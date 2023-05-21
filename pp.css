@@ -91,7 +91,7 @@ ul { list-style-type : none;
     width: 100%;
     position: relative;
   }
-  .btn{
+  .btnPush{
   padding: 15px 10px;
   margin:10px 4px;
   color: #000000;
@@ -104,7 +104,7 @@ ul { list-style-type : none;
  
 
 
-.btn::before {
+.btnPush::before {
     content: '';
     position: absolute;
     bottom: 50%;
@@ -123,7 +123,7 @@ ul { list-style-type : none;
     transition: transform 0.4s cubic-bezier(1, 0, 0, 1)
   }
   
-  .btn:hover::before {
+  .btnPush:hover::before {
     -webkit-transform-origin: right top;
     -ms-transform-origin: right top;
     transform-origin: right top;
