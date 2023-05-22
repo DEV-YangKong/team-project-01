@@ -10,188 +10,117 @@
 <body>
     <div id="wrap" class="bodyWrap">
       <header class="headerWrap" style="left: 0px;">
-        <div class="headerContainer block1">
-        <div class="navContainer">
-            <h1 class="logo">
-                <!-- 새로고침 어디로 할지 다시 정하기 onclick -->
-                <a onClick="window.location.reload()" style="cursor: pointer;">
-                    <img class="fixed1" src="./img/header-logo-samsung-design-svg.svg" alt="logo">
-                </a>
-            </h1>
-            <nav class="navMenu">
-                <ul class="fixed2">
-                    <!-- 수정필요 팀원들 만들면 링크 첨삭하기 -->
-                    <li><a id="spreadUnderline" href="https://design.samsung.com/kr/our-stories.html">Our Stories</a> </li>
-                    <li><a id="spreadUnderline" href="https://design.samsung.com/kr/about-us.html">About Us</a></li>
-                    <li><a id="spreadUnderline" href="https://design.samsung.com/kr/career.html">Career</a></li>
-                    <li><a id="spreadUnderline" href="https://design.samsung.com/kr/news.html">News</a></li>
-                </ul>
-            </nav>
-        </div>
-         <div class="navWidget">
-            <div class="widgetHash">
-                <div class="rollingContainer">
-                    <div class="rollingControl">
-                        <div class="rollingBanner">
-                            <div class="rollingWrap">
-                                <ul> 
-                                    <!-- 팀원들 것으로 연결 -->
-                                    <li><a href="/kr/sort-by.html#list-1">#Sustainable_Design </a></li>
-                                    <li class="next"></li><a href="/kr/sort-by.html#list-2">#History_of_Refrigerators</p></a></li>
-                                    <li class="current"><a href="/kr/sort-by.html#list-3">#Interview_with_Designers</a></li>
-                                    <li><a href="/kr/sort-by.html#list-4">#Path_of_Innovation</a></li>
-                                    <li class="prev"><a href="/kr/sort-by.html#list-5">#Colorful_Thoughts</a></li>
-                            </ul>
+        <div class="headerCover">
+            <div class="headerContainer block1">
+            <div class="navContainer">
+                <div class="logoCon">
+                <h1 class="logo">
+                    <!-- 새로고침 어디로 할지 다시 정하기 onclick -->
+                    <a onClick="window.location.reload()" style="cursor: pointer;">
+                        <img class="fixed1" src="./img/header-logo-samsung-design-svg.svg" alt="logo">
+                    </a>
+                </h1>
+                </div>
+                <nav class="navMenu">
+                    <ul class="fixed2">
+                        <!-- 수정필요 팀원들 만들면 링크 첨삭하기 -->
+                        <li><a id="spreadUnderline" href="https://design.samsung.com/kr/our-stories.html">Our Stories</a> </li>
+                        <li><a id="spreadUnderline" href="https://design.samsung.com/kr/about-us.html">About Us</a></li>
+                        <li><a id="spreadUnderline" href="https://design.samsung.com/kr/career.html">Career</a></li>
+                        <li><a id="spreadUnderline" href="https://design.samsung.com/kr/news.html">News</a></li>
+                    </ul>
+                </nav>
+            </div>
+             <div class="navWidget">
+                <div class="widgetHash">
+                    <div class="rollingContainer">
+                        <div class="rollingControl">
+                            <div class="rollingBanner">
+                                <div class="rollingWrap">
+                                    <ul> 
+                                        <!-- 팀원들 것으로 연결 -->
+                                        <li><a href="/kr/sort-by.html#list-1">#Sustainable_Design </a></li>
+                                        <li class="next"></li><a href="/kr/sort-by.html#list-2">#History_of_Refrigerators</p></a></li>
+                                        <li class="current"><a href="/kr/sort-by.html#list-3">#Interview_with_Designers</a></li>
+                                        <li><a href="/kr/sort-by.html#list-4">#Path_of_Innovation</a></li>
+                                        <li class="prev"><a href="/kr/sort-by.html#list-5">#Colorful_Thoughts</a></li>
+                                </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="imgLangControl">
-                <div class="widgetSearch">
-                    <a><img src="./img/header-search-icn2022.svg" class="searchImg"></a>
+                <div class="imgControl">
+                    <div class="widgetSearch">
+                        <a><img src="./img/header-search-icn2022.svg" class="searchImg"></a>
+                    </div>
+                <div class="widgetLang">
+                    <a>
+                    <img  class="langImg" src="./img/header-lang-icn2022.svg" alt="search">
+                    </a>
+                    <ul class="langUlControl">
+                        <li class="isActive">
+                            <a href="javascript:;">KR</a> 
+                            <!--영어 한글 버전 바꾸기 어떻게 하지..?-->
+                        </li>
+                        <li>
+                            <a href="javascript:goToChangeVersion();">EN</a>
+                        </li>
+                    </ul>
                 </div>
-            <div class="widgetLang">
-                <a>
-                <img  class="langImg" src="./img/header-lang-icn2022.svg" alt="search">
-                </a>
-                <ul class="langUlControl">
-                    <li class="isActive">
-                        <a href="javascript:;">KR</a> 
-                        <!--영어 한글 버전 바꾸기 어떻게 하지..?-->
-                    </li>
-                    <li>
-                        <a href="javascript:goToChangeVersion();">EN</a>
-                    </li>
-                </ul>
-            </div>
+                </div>
             </div>
         </div>
     </div>
-    <main></main>
-        <div>
+    <main>
+        <div class="tboxCtl">
             <h2 class="textBox1">Design for All Abilities</h2>
-            <div class="textboxControl">
                 <div class="textBox2">새로운 경험을 만드는 창의적인 사람들의 이야기</div>
-            </div>
-              <div class="img-container">
-                  <a href="https://design.samsung.com/kr/contents/all-abilities/">
-            <img class="imgBox" src="./img/all-abilities-keyvisual.jpg" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
         </div>
-    </main>
-    <!-- 여기는 모바일 버전 -->
-        <!-- <div class="header-container d-block-m">
-            <h1 class="logo">
-                <a href="javascript:goToPage(0);">
-                    <img src="./img/header-logo-samsung-design-svg.svg" alt="logo">
-                </a>
-            </h1>
-            <div class="nav-widget">
-                <a href="#" class="widget-search">
-                    <img src="./img/header-search-icn2022.svg" alt="search">
-                </a>
-                    <a href="#" class="widget-nav-btn"></a>
-                    <a href="#" class="search-close search-close-btn"></a>
+        <div class="imgCtl">
+            <a href="https://design.samsung.com/kr/contents/all-abilities/">
+            <img class="imgBox" src="./img/all-abilities-keyvisual.jpg" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
+            </a>
+        </div>
+        <div class="pop">
+            <div  class="popFirst">
+                <p>일상 속 불편함을 디지털 기기를 활용해 새로운 가능성으로 바꾸는 사람들이 있습니다. 삼성 제품과 함께</p>
+                <p>창의적인 경험을 만들어 나가는 이들의 이야기를 소개합니다.</p>
             </div>
-            <div class="mobile-menu">
-                <nav>
-                    <ul>
-                        <li class="isActive">
-                            <a href="javascript:goToPage(1);">Our Stories</a>
-                        </li>
-                        <li>
-                            <a href="javascript:goToPage(2);">About Us</a>
-                        </li>
-                        <li>
-                            <a href="javascript:goToPage(3);">Career</a>
-                        </li>
-                        <li>
-                            <a href="javascript:goToPage(4);">News</a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="widget-hash-mo">
-                    <div class="hash-accodian rn2022-mt-30">
-                        <ul>
-                            <li>
-                                <a href="/kr/sort-by.html#list-1">#Sustainable_Design</a>
-                            </li>
-                            <li>
-                                <a href="/kr/sort-by.html#list-2">#History_of_Refrigerators</a>
-                            </li>
-                            <li>
-                                <a href="/kr/sort-by.html#list-3">#Interview_with_Designers</a>
-                            </li>
-                            <li>
-                                <a href="/kr/sort-by.html#list-4">#Path_of_Innovation</a>
-                            </li>
-                            <li>
-                                <a href="/kr/sort-by.html#list-5">#Colorful_Thoughts</a>
-                            </li>
-                            <li>
-                                <a href="/kr/sort-by.html#list-1">#Sustainable_Design</a>
-                            </li>
-                        </ul>
+            <div  class="popSecond">
+                <span>Our Stories&nbsp;&nbsp;|&nbsp;&nbsp;May 18, 2023</span>
+            </div>
+        </div>
+        </main>
+        <!-- 밑으로 가야할 부분 (주의) 합칠 때는 br뺄 것 -->
+        <br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <!-- 밑으로 가야할 부분 (주의) 합칠 때는 br뺄 것 -->
+        <footer>
+            <img class="lastImg" src="./img/samsung-banner2.jpg">
+            <div class="footerNav">
+                <div class="footerNavContainer">
+                    <div class="footerLogoCtl">
+                    <div class="footerLogo">
+                        <!-- 새로고침 어디로 할지 다시 정하기 onclick -->
+                        <a onClick="window.location.reload()" style="cursor: pointer;">
+                            <img class="fixed3" src="./img/footer-logo-samsung-design-svg.svg" alt="logo">
+                        </a>
+                        <span class="copyRight">© 2023 SAMSUNG All Rights Reserved.</span>
                     </div>
-                </div>
-                <div class="widget-lang-mo rn2022-mt-80">
-                    <figure><img src="./img/header-lang-icn2022.svg" alt=""></figure>
-                    <ul>
-                        <li class="isActive">
-                            <a href="javascript:;">KR</a>
-                        </li>
-                        <li><a href="javascript:goToChangeVersion();">EN</a>
-                        </li>
-                    </ul>
+                    </div>
+                    <nav class="FooteNavMenu">
+                        <ul class="fixed4">
+                            <!-- 수정필요 팀원들 만들면 링크 첨삭하기 -->
+                            <li><a href="https://design.samsung.com/kr/our-stories.html">Our Stories</a> </li>
+                            <li><a href="https://design.samsung.com/kr/about-us.html">About Us</a></li>
+                            <li><a href="https://design.samsung.com/kr/career.html">Career</a></li>
+                            <li><a href="https://design.samsung.com/kr/news.html">News</a></li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
-        </div> --> 
-        <!-- 서치 애니메이션 찾고 추가하기 -->
-       <div class="searchContainer">
-            <div class="searchWrapper">
-                <article class="innerGrid">
-                    <form class="formHeaderSearch">
-                        <label for="searchTxt" class="inputWrap">
-                            <input type="text" id="searchTxt" name="q" onpaste="javascript:return false;" onkeyup="specialCharRemove(this);" onkeydown="onKeyDown()" maxlength="40" autocomplete="off" placeholder="Input Keyword">
-                            <a href="javascript:;" class="btn-search">
-                                <img src="./img/header-search-icn2022.svg" alt="search">
-                                <!-- <img src="./img/header-search-icn2022.svg" alt="search" class="d-block-m"> -->
-                            </a>
-                        </label>
-                    </form>
-            <div class="search-contents">
-                <ul>
-                    <li><a href="https://design.samsung.com/kr/search-result.html?q=Galaxy%20S23">Galaxy S23</a></li>
-                    <li><a href="https://design.samsung.com/kr/search-result.html?q=%20One%20UI">One UI</a></li>
-                    <li><a href="https://design.samsung.com/kr/search-result.html?q=Bespoke">Bespoke</a></li>
-                    <li><a href="https://design.samsung.com/kr/search-result.html?q=SmartThings">SmartThings</a></li>
-                    <li><a href="https://design.samsung.com/kr/search-result.html?q=ESG">ESG</a></li>
-                    <li><a href="https://design.samsung.com/kr/search-result.html?q=Sustainability">Sustainability</a></li>
-                </ul>
-            </div>
-                </article>
-            </div>
-    <!-- <span class="search-close search-dim" style="height: 1249px;"></span></div>
-        </header>
-    <div id="container" style="min-height: 1118px;">
-        <div id="content" class="page-main onShow">
-          <main>
-            <section id="section-1" class="section-kv-item cols-container">
-              <h2 class="rn2022-txt-tit-bold-shp rn2022-cols-6">Design for All Abilities</h2>
-              <span class="rn2022-txt-big rn2022-cols-6 rn2022-mt-t14">새로운 경험을 만드는 창의적인 사람들의 이야기</span>
-              <figure class="rn2022-mt-50 rn2022-cols-6 motion onTrans" motion-pos="0.5">
-                <div class="img-container">
-                    <a href="https://design.samsung.com/kr/contents/all-abilities/">
-                        <img src="./img/all-abilities-keyvisual.jpg" alt="Design for All Abilities" class="d-block-pc">
-                        <img src="./img/ourstories-all-abilities-m.jpg" alt="Design for All Abilities" class="d-block-m">
-                    </a>
-                </div>
-              </figure> -->
-              <!-- <div class="txt-wrap rn2022-cols-3 rn2022-mt-40 rn2022-ml-3-col">
-                <p class="rn2022-txt-small rn2022-mt-50-mob-only motion slide-in-up onTrans" motion-pos="0.5">일상 속 불편함을 디지털 기기를 활용해 새로운 가능성으로 바꾸는 사람들이 있습니다. 삼성 제품과 함께 창의적인 경험을 만들어 나가는 이들의 이야기를 소개합니다.</p>
-                <span class="contents-date-txt rn2022-mt-t24 rn2022-mt-t30-mob-only motion slide-in-up onTrans" motion-pos="0.5">Our Stories&nbsp;&nbsp;|&nbsp;&nbsp;May 18, 2023</span>
-              </div>
-            </section> -->
+        </footer>
+
     <script src="./JS/test.js"></script>
 </body>
 </html>
