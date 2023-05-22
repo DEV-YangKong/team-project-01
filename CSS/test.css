@@ -4,22 +4,30 @@ body {
 }
 
 
-
-.headerWrap {
+/* .headerWrap {
     box-sizing: border-box;
+    border: 3px solid blue;
+    padding: 0px;
+    margint: 0px;
+} */
+
+
+.headerCover {
     background: #fff;
     position: fixed;
     z-index: 999999;
     width: 100%;
+    height: 60px;
     top: 0;
-    box-sizing: border-box;
 }
 
 .headerContainer {
-    box-sizing: border-box;
     flex-wrap: nowrap;
     display: flex;
     height: 100px;
+    padding: 0;
+    margin: 0;
+    
 }
 
 
@@ -30,26 +38,32 @@ body {
     width: 1000px;
     margin-left: 20px;
     margin-top: 10px;
+    
+
+
     /* justify-content: space-evenly; */
     /* align-items: center; */
 }
 
 
 .logo img {
-    width: 120px;
-    height: 40px;
+    display: inline-block;
+    width: 184px;
+    height: 44.86px;
     box-sizing: border-box;
     display: inline-flex;
     position: relative;
-    margin-top: 1px;
-    margin-left: 15px;
+    margin-top: 20px;
+    margin-left: 26px;
+
 }
 
 
 .fixed1 {
     position: fixed;
-    bottom: 20px;
+    bottom: 35px;
     left: 0px;
+    
 }
 
 
@@ -60,15 +74,14 @@ body {
     color: #000;;
     display: flex;
     list-style-position: inside;
+
 }
 
 
 .fixed2 {
     position: fixed;
-    top: 6px;
-    left: 140px;
-    font-weight: 300;
-    font-size: 3px;
+    left: 200px;
+    margin-top: 0px;
 }
 
 
@@ -87,7 +100,7 @@ body {
     bottom: 0;
     content: "";
     display: block;
-    height: 0.2px;
+    height: 1px;
     left: 50%;
     position: relative;
     background: black;
@@ -106,8 +119,10 @@ body {
 .navMenu li {
     text-align: center;
     display: inline-block;
-    font-size: 15px;
-    margin: 0px 15px;
+    font-size: 21px;
+    margin-left: 30px;
+    font-weight: 340;
+
 }
 
 
@@ -121,33 +136,36 @@ body {
 
 .rollingContainer {
     width: 100%;
-    height: 100%;
-    padding-right: 3px;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 80%;
+    /* padding-right: 3px; */
+    margin-top: 25px;
+    /* display: inline-flex; */
+    padding-right: 40px;
+
 }
 
 
-.rollingControl {
+/* .rollingControl {
     padding-bottom: 30px;
     margin: 0;
-}
+} */
 
 /* 배너 컨테이너 */
 .rollingBanner{
     position: relative;
-    width: 180px;
-    height: 28px;
-    font-size: .875rem;
+    display: inline-block;
+    height: 26px;
+    font-size: 20px;
     letter-spacing: -1px;
-    padding: 7px 15px;
+    padding: 2px 0px;
     box-sizing: border-box;
     background-color: white;
-    border-radius: 16px;
     font-weight: bold;
-    margin-bottom: 0;
+    left: 90px;
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
+
+
 }
 
 /* 롤링 배너 */
@@ -217,29 +235,34 @@ body {
 
 
 .imgLangControl {
-    display: flex;
-    justify-content: space-evenly;
-    align-content: center;
-    width: 50px;
-    height: 30px;
-    margin-top: 18px;
-    margin-right: 60px;
+    display: block;
+    /* justify-content: space-evenly; */
+    /* align-content: center; */
+    /* width: 50px;
+    height: 30px; */
+    /* margin-top: 18px; */
+
 }
 
 
 .searchImg {
-    width: 15px;
-    height: 12px;
-    padding-top: 10px;
+    width: 50px;
+    height: 18px;
+    margin-top: 30px;
+    display: inherit;
+    padding-right: 90px;
+    margin-left: 60px;
 }
 
 .langImg {
-    width: 18px;
+    position: fixed;
+    width: 50px;
     height: 18px;
-    box-sizing: border-box;
-    border: 3px solid white;
-    margin-top: 7px;
-    margin-left: 20px;
+    margin-top: 0px;
+    margin-left: 0;
+    padding-left: 100px;
+    top: 30px;
+
 }
 
 
@@ -258,36 +281,70 @@ body {
 
 
 .textBox1 {
+    position: relative;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 50px;
     display: inline-flex;
     box-sizing: border-box;
-    margin-left: 140px;
+    margin-top: 145px;
+    padding-top: 45px;
+    margin-left: 42px;
+    /* border: 3px solid red; */
 }
 
 
-.textboxControl {
-    position: fixed;
+.textboxCtl {
+    position: relative
     box-sizing: border-box;
-    margin-top: 0;
-    top: 175px;
+
 }
 
 
 .textBox2 {
-    font-size: 15px;
+    position: relative;
+    display: block;
+    font-size: 23px;
     display: inline-block;
     box-sizing: border-box;
-    padding-left: 143px;
+    top: 48px;
+    right: 495px;
+    font-weight: 380;
+    /* padding-left: 143px; */
+    /* margin-left: 145px; */
+
+    /* border: 3px solid blue; */
 }
 
 
 .imgBox {
-    width: 1150px;
-    height: 650px;
-    margin-top: 50px;
-    margin-left: 150px;
+    position: relative;
+    width: 1402.02px;
+    height: 788.68px;
+    margin-left: 43px;
+    padding-top: 0px;
+    top: 43px;
+    /* border: 3px solid rgb(21, 240, 203); */
+    overflow:hidden;
+
 }
+
+
+.imgBox { transform:scale(1); transition:transform 0.5s linear;}
+
+.imgBox:hover { 
+  transform:scale(1.05);             /*  default */
+  -webkit-transform:scale(1.05);     /*  크롬 */
+  -moz-transform:scale(1.05);       /* FireFox */
+  transition: ease 1s;
+}
+
+
+
+.imgCtl {
+    position: relative;
+    box-sizing: border-box;
+}
+
 
 
 /* 선택하면 파란색으로 */
@@ -297,28 +354,144 @@ body {
     color: #1d1dc5;
 }
 
-/* Style the button that is used to open and close the collapsible content */
-.collapsible {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
+
+
+  .pop {
+    flex-wrap: wrap;
+    /* margin-top: 50px; */
+    padding-left: 730px;
+    margin-right: 80px;
+    letter-spacing: 10;  
+
+  }
+
+
+  .popFirst {
+    display : block;
+    font-size: 17px;
+    margin-top : 5em;
+    text-decoration: none;
+    position: relative;
+    animation: fadeInUp 1s;
+  }
+
+
+  .popSecond {
+    display : block;
+    margin-top : 35px;
+    font-size: 13px;
+    text-decoration: none;
+    position: relative;
+    animation: fadeInUp 5s;
+  }
+
+
+
+  .lastImg {
+    width: 1497px;
+    height: 590px;
+    display: flex;
+  }
+
+
+/* footer 추가 */
+
+  .footerNav {
+    background: #fff;
+    z-index: 999999;
     width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
+    height: 10px;
+    top: 0;
+
+}
+
+
+.footerNavContainer {
+    /* flex-wrap: nowrap; */
+    display: flex;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+.footerLogoCtl {
+    box-sizing: border-box;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.footerLogo {
+    position: relative;
+    width: 184px;
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+    display: block
+    position: relative;
+    margin-left: 26px;
+    text-decoration: none;
+
+}
+
+.fixed3 {
+    position: relative;
+    bottom: 35px;
+    left: 0px;
+    
+}
+
+
+
+.navMenu {
+    box-sizing: border-box;
+    line-height: 1.3;
+    color: #000;;
+    display: flex;
+    list-style-position: inside;
+
+}
+
+
+.fixed4 {
+    position: relative;
+    left: 200px;
+    margin-top: 0px;
+
+}
+
+
+
+.fixed4 li {
+    text-align: center;
+    display: inline-block;
+    font-size: 20 px;
+    padding-left: 30px;
+    font-weight: 340;
+    text-decoration-line: none;
+    color: black;
+
+}
+
+.copyRight {
     font-size: 15px;
-  }
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+
   
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  .active, .collapsible:hover {
-    background-color: #ccc;
-  }
-  
-  /* Style the collapsible content. Note: hidden by default */
-  .content {
-    padding: 0 18px;
-    display: none;
-    overflow: hidden;
-    background-color: #f1f1f1;
-  }
+  @keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}
