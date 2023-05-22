@@ -54,20 +54,14 @@
                     <div class="widgetSearch">
                         <a><img src="./img/header-search-icn2022.svg" class="searchImg"></a>
                     </div>
-                <div class="widgetLang">
-                    <a>
-                    <img  class="langImg" src="./img/header-lang-icn2022.svg" alt="search">
-                    </a>
-                    <ul class="langUlControl">
-                        <li class="isActive">
-                            <a href="javascript:;">KR</a> 
-                            <!--영어 한글 버전 바꾸기 어떻게 하지..?-->
-                        </li>
-                        <li>
-                            <a href="javascript:goToChangeVersion();">EN</a>
-                        </li>
-                    </ul>
-                </div>
+                    <div class="widgetLang">
+                        <ul class="langUl"></ul>
+                    <!--영어 한글 버전 바꾸기 어떻게 하지..?-->
+                                    <ul class="subMenu">
+                                        <li id="krMenu"><a href="https://design.samsung.com/kr/">KR</a></li>
+                                        <li   li id="engMenu"><a href="https://design.samsung.com/global/">EN</a></li>
+                                    </ul>  
+                    </div>
                 </div>
             </div>
         </div>
@@ -98,18 +92,17 @@
         <footer>
             <img class="lastImg" src="./img/samsung-banner2.jpg">
             <div class="footerNav">
-                <div class="footerNavContainer">
                     <div class="footerLogoCtl">
                     <div class="footerLogo">
                         <!-- 새로고침 어디로 할지 다시 정하기 onclick -->
                         <a onClick="window.location.reload()" style="cursor: pointer;">
-                            <img class="fixed3" src="./img/footer-logo-samsung-design-svg.svg" alt="logo">
+                            <img class="footerLogoImg" src="./img/footer-logo-samsung-design-svg.svg" alt="logo">
                         </a>
+                    </div>
                         <span class="copyRight">© 2023 SAMSUNG All Rights Reserved.</span>
                     </div>
-                    </div>
-                    <nav class="FooteNavMenu">
-                        <ul class="fixed4">
+                    <nav class="footeNavMenu">
+                        <ul class="footerNavMenuUl">
                             <!-- 수정필요 팀원들 만들면 링크 첨삭하기 -->
                             <li><a href="https://design.samsung.com/kr/our-stories.html">Our Stories</a> </li>
                             <li><a href="https://design.samsung.com/kr/about-us.html">About Us</a></li>
@@ -117,7 +110,6 @@
                             <li><a href="https://design.samsung.com/kr/news.html">News</a></li>
                         </ul>
                     </nav>
-                </div>
             </div>
         </footer>
 
