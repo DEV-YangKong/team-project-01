@@ -13,22 +13,6 @@
 
 ---
 
-## [<랜딩 페이지 (배포버전)>](https://tranquil-caramel-1730c6.netlify.app/)
-
-`우리의 랜딩 페이지 영상`<a href="https://play-tv.kakao.com/embed/player/cliplink/438250186?service=daum_tistory" target="_blank"> 클릭 </a>
-
-<br/>
-
----
-
-## [<원본 페이지>](https://design.samsung.com/kr/)
-
-`원본 영상`<a href="https://play-tv.kakao.com/embed/player/cliplink/438249835?service=daum_tistory" target="_blank"> 클릭 </a>
-
-<br/>
-
----
-
 ### 🎀 팀원 🎀
 
 ---
@@ -44,3 +28,22 @@ jwcho95님 [🖤깃허브🖤](https://github.com/jwcho95)
 
 MINZOEY님 [🖤깃허브🖤](https://github.com/MINZOEY)
 : Stories, News
+
+<br/>
+<br/>
+
+---
+
+## [<랜딩 페이지 (배포버전)>](https://tranquil-caramel-1730c6.netlify.app/)
+
+`우리의 랜딩 페이지 영상`<a href="https://play-tv.kakao.com/embed/player/cliplink/438250186?service=daum_tistory" target="_blank"> 클릭 </a>
+
+<br/>
+
+---
+
+## [<원본 페이지>](https://design.samsung.com/kr/)
+
+`원본 페이지 영상`<a href="https://play-tv.kakao.com/embed/player/cliplink/438249835?service=daum_tistory" target="_blank"> 클릭 </a>
+
+<br/>
