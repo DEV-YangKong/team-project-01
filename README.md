@@ -4,15 +4,17 @@
 
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FeaJ3WE%2Fbtsh4leOBnu%2FHu87p5rtiiRN8QFxKKlJkK%2Fimg.jpg">
 
+목표한 페이지 : 삼성 디자인
+
 ## [<원본 페이지>](https://design.samsung.com/kr/)
 
-<iframe src="https://play-tv.kakao.com/embed/player/cliplink/438249835?service=daum_tistory" width="860" height="474" frameborder="0" allowfullscreen="true"></iframe>
-
-목표한 페이지 : 삼성 디자인
+`원본 영상`<a href="https://play-tv.kakao.com/embed/player/cliplink/438249835?service=daum_tistory"> 클릭 </a>
 
 ## [<랜딩 페이지 (배포버전)>](https://tranquil-caramel-1730c6.netlify.app/)
 
-<iframe src="https://play-tv.kakao.com/embed/player/cliplink/438250186?service=daum_tistory" width="860" height="474" frameborder="0" allowfullscreen="true"></iframe>
+`우리의 랜딩 페이지 영상`<a href="https://play-tv.kakao.com/embed/player/cliplink/438250186?service=daum_tistory"> 클릭 </a>
+
+`프로젝트 후기` <a href="https://dev-yangkong.tistory.com/34"> 클릭 </a>
 
 ---
 
