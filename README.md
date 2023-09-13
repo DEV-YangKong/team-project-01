@@ -8,13 +8,13 @@
 
 ## [<원본 페이지>](https://design.samsung.com/kr/)
 
-`원본 영상`<a href="https://play-tv.kakao.com/embed/player/cliplink/438249835?service=daum_tistory"> 클릭 </a>
+`원본 영상`<a href="https://play-tv.kakao.com/embed/player/cliplink/438249835?service=daum_tistory" target="_blank"> 클릭 </a>
 
 ## [<랜딩 페이지 (배포버전)>](https://tranquil-caramel-1730c6.netlify.app/)
 
-`우리의 랜딩 페이지 영상`<a href="https://play-tv.kakao.com/embed/player/cliplink/438250186?service=daum_tistory"> 클릭 </a>
+`우리의 랜딩 페이지 영상`<a href="https://play-tv.kakao.com/embed/player/cliplink/438250186?service=daum_tistory" target="_blank"> 클릭 </a>
 
-`프로젝트 후기` <a href="https://dev-yangkong.tistory.com/34"> 클릭 </a>
+`프로젝트 후기` <a href="https://dev-yangkong.tistory.com/34" target="_blank"> 클릭 </a>
 
 ---
 
